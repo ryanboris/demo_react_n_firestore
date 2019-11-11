@@ -8,6 +8,8 @@
 
 > An essential overview of relevant Firestore features and how to connect them to a React application.
 
+_Note_: I removed the lock file in order to easily allow the user to install deps using the package manager of their choice.  All deps are current as of 11/11/2019 and the installation via CRA, and considering this repo is for a single day demo, removing the lock should not cause any issues while helping to avoid the more common issue of conflicting lock files that would be the bigger possibility.
+
 ## Install
 
 ```sh
@@ -18,12 +20,6 @@ npm i or yarn
 
 ```sh
 npm start or yarn start
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
 
 ## Author
