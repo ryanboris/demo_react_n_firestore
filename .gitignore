@@ -1,5 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+creds.js
+package-lock.json
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+package-lock.json
+/Users/rb/DevWork/lambda/demos/demo_react_n_firestore/package-lock.json
