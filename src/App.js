@@ -8,7 +8,15 @@ const App = () => {
   const [last, setLast] = useState('')
   const [age, setAge] = useState('')
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    const unsubscribe = db.collection('users').onSnapshot(snapshot => {
+      const users = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }))
+      setUsers(users)
+    })
+    return () => {
+      unsubscribe()
+    }
+  }, [])
 
   async function postUser(e) {
     e.preventDefault()
