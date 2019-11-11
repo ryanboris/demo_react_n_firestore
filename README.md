@@ -28,9 +28,9 @@ npm start or yarn start
 
 * Github: [@ryanboris](https://github.com/ryanboris)
 
-## Show your support
+## Contributing
 
-Give a ⭐️ if this project helped you!
+Please feel free to submit issues or pull requests as needed.  
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
